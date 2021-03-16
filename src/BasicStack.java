@@ -28,7 +28,7 @@ public class BasicStack<X> {
         }
         return found;
     }
-    
+
     public X access(X item){
         while(stackPointer > 0){
             X tempItem = pop();
